@@ -77,23 +77,24 @@ p{ margin: 0;
    .text-light-grey{color:var(--bs-primary-color);}
 
    /* Shape divider */
- .custom-shape-divider-top-1704437744 {
+.custom-shape-divider-bottom-1704438246 {
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
+    transform: rotate(180deg);
 }
 
-.custom-shape-divider-top-1704437744 svg {
+.custom-shape-divider-bottom-1704438246 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
     height: 150px;
 }
 
-.custom-shape-divider-top-1704437744 .shape-fill {
+.custom-shape-divider-bottom-1704438246 .shape-fill {
     fill: #FFFFFF;
 }
    /* Shape divider end */
